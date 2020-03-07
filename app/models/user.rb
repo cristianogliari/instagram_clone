@@ -6,4 +6,6 @@ class User < ApplicationRecord
          
   validates :name, :username, presence: true
   validates :username, uniqueness: true
+  
+  has_many :posts, foreign_key: :created_by_id, dependent: :destroy
 end
