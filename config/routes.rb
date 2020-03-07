@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
   root "posts#index"
+
+  devise_for :users, only: %i[sessions registrations passwords]
 
   resources :posts, only: %i[index show new create]  
 end
