@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault();
 
       const modal = new tingle.modal({
-        closeMethods: ['overlay', 'scape'],
+        closeMethods: ['overlay', 'escape'],
         cssClass: ['instagram-modal'],
       });
 
