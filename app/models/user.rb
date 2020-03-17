@@ -8,4 +8,7 @@ class User < ApplicationRecord
   validates :username, uniqueness: true
   
   has_many :posts, foreign_key: :created_by_id, dependent: :destroy
+
+  has_one_attached :avatar
+  validates :avatar, content_type: %i[png jpeg jpg]
 end
