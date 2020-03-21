@@ -2,6 +2,7 @@ pt-BR:
   activerecord:
     models:
       user: 'Usuário'
+      comments: 'Comentário'
       
     attributes:
       default: &default
