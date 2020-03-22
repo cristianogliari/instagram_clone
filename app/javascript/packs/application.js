@@ -19,4 +19,4 @@ require("@rails/actiontext")
 import "../src/application.css";
 import "./flashMessages";
 import "./modal";
-import "./likes ";
+import "./likes";
