@@ -1,24 +1,23 @@
-# README
+# README (EN)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* Check your ruby version
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* DB used: PostgreSQL
 
-* Database initialization
+* TODO: stories, delete posts and other recents updates of oficial instagram
 
-* How to run the test suite
+# LEIA-ME (PT-BR)
 
-* Services (job queues, cache servers, search engines, etc.)
+* Verifique sua versão do ruby
 
-* Deployment instructions
+* Verifique as dependências de seu sistema
 
-* ...
+* Configurações
+
+* Banco de dados utilizado: PostgreSQL
+
+* A Fazer: stories, remoção de posts e outras atualização recentes do instagram oficial
